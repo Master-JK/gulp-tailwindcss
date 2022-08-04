@@ -1,0 +1,11 @@
+extends templates/layout
+
+block title
+    title GALLERY
+
+block content
+    content(class="w-3/4 h-full py-1")
+        header(class="h-14 mb-1")
+            include ./partials/nav
+        content
+            include ./partials/article
